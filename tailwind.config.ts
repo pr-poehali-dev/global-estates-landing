@@ -61,7 +61,48 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Premium Real Estate Colors
+				gold: {
+					50: "#fffbeb",
+					100: "#fef3c7",
+					200: "#fde68a", 
+					300: "#fcd34d",
+					400: "#fbbf24",
+					500: "#C9A961", // Luxury Gold
+					600: "#d97706",
+					700: "#b45309",
+					800: "#92400e",
+					900: "#78350f",
+				},
+				pearl: {
+					50: "#ffffff",
+					100: "#F8F8F8", // Pearl White
+					200: "#f1f5f9",
+					300: "#e2e8f0",
+					400: "#cbd5e1",
+					500: "#94a3b8",
+					600: "#64748b",
+					700: "#475569",
+					800: "#334155",
+					900: "#1e293b",
+				},
+				charcoal: {
+					50: "#f8fafc",
+					100: "#f1f5f9",
+					200: "#e2e8f0",
+					300: "#cbd5e1",
+					400: "#94a3b8",
+					500: "#64748b",
+					600: "#475569",
+					700: "#334155",
+					800: "#2C2C2C", // Dark Gray
+					900: "#1A1A1A", // Charcoal Black
 				}
+			},
+			fontFamily: {
+				'playfair': ['Playfair Display', 'serif'],
+				'inter': ['Inter', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
